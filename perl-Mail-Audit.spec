@@ -5,7 +5,7 @@ Summary:	%{pdir}::%{pnam} -- alternative for procmail
 Summary(pl):	%{pdir}::%{pnam} -- alternatywa dla procmaila
 Name:		perl-%{pdir}-%{pnam}
 Version:	2.1
-Release:	1
+Release:	2
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -13,6 +13,8 @@ BuildRequires:	perl >= 5
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+
+%define		_noautoreq	'perl(Razor::Agent)' 'perl(Razor::Client)' 'perl(Razor::String)'
 
 %description
 Mail::Audit was inspired by Tom Christiansen's audit_mail and deliverlib
