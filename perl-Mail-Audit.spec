@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Mail
-%define	pnam	Audit
+%define		pdir	Mail
+%define		pnam	Audit
 Summary:	Mail::Audit - alternative for procmail
 Summary(pl):	Mail::Audit - alternatywa dla procmaila
 Name:		perl-Mail-Audit
