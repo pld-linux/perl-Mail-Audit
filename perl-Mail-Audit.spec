@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_without	tests	# do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Mail
 %define	pnam	Audit
@@ -12,6 +16,10 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 # Source0-md5:	b52b1142fa9ed7d847c531186f913ea6
 BuildRequires:	perl-devel >= 5
 BuildRequires:	rpm-perlprov >= 4.1-13
+%if {with tests}
+BuildRequires:	perl-MIME-tools
+BuildRequires:	perl-MailTools
+%endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -39,7 +47,8 @@ lub podobnego miejsca.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
-#%%{__make} test
+
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
