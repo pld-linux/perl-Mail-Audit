@@ -15,7 +15,7 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_noautoreq	'perl(Razor::Agent)' 'perl(Razor::Client)' 'perl(Razor::String)'
+%define		_noautoreq	'perl(Razor::.*)'
 
 %description
 Mail::Audit was inspired by Tom Christiansen's audit_mail and deliverlib
