@@ -17,7 +17,7 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 # Source0-md5:	b52b1142fa9ed7d847c531186f913ea6
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-%if {with tests}
+%if %{with tests}
 BuildRequires:	perl-MIME-tools
 BuildRequires:	perl-MailTools
 %endif
