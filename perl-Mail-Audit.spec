@@ -9,7 +9,7 @@ Summary:	%{pdir}::%{pnam} - alternative for procmail
 Summary(pl):	%{pdir}::%{pnam} - alternatywa dla procmaila
 Name:		perl-%{pdir}-%{pnam}
 Version:	2.1
-Release:	3
+Release:	4
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
