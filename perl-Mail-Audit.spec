@@ -10,7 +10,8 @@ Summary(pl):	%{pdir}::%{pnam} - alternatywa dla procmaila
 Name:		perl-%{pdir}-%{pnam}
 Version:	2.1
 Release:	3
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	b52b1142fa9ed7d847c531186f913ea6
