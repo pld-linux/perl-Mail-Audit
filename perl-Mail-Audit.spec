@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Mail
 %define	pnam	Audit
-Summary:	%{pdir}::%{pnam} -- alternative for procmail
-Summary(pl):	%{pdir}::%{pnam} -- alternatywa dla procmaila
+Summary:	%{pdir}::%{pnam} - alternative for procmail
+Summary(pl):	%{pdir}::%{pnam} - alternatywa dla procmaila
 Name:		perl-%{pdir}-%{pnam}
 Version:	2.1
 Release:	3
