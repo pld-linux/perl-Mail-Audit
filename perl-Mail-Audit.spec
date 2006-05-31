@@ -8,13 +8,13 @@
 Summary:	Mail::Audit - alternative for procmail
 Summary(pl):	Mail::Audit - alternatywa dla procmaila
 Name:		perl-Mail-Audit
-Version:	2.1
+Version:	2.200_02
 Release:	4
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	b52b1142fa9ed7d847c531186f913ea6
+Source0:	http://search.cpan.org/CPAN/authors/id/R/RJ/RJBS/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	781316cc8458de0b98ed9d583a6005e7
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -23,8 +23,6 @@ BuildRequires:	perl-MailTools
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
-%define		_noautoreq	'perl(Razor::.*)'
 
 %description
 Mail::Audit was inspired by Tom Christiansen's audit_mail and deliverlib
