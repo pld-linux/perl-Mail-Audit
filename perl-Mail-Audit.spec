@@ -6,7 +6,7 @@
 %define		pdir	Mail
 %define		pnam	Audit
 Summary:	Mail::Audit - alternative for procmail
-Summary(pl):	Mail::Audit - alternatywa dla procmaila
+Summary(pl.UTF-8):   Mail::Audit - alternatywa dla procmaila
 Name:		perl-Mail-Audit
 Version:	2.200_02
 Release:	4
@@ -32,12 +32,12 @@ into a mailbox, filtered, resent elsewhere, rejected, replied to, and
 so on.  It's designed to allow you to easily create filter programs to
 stick in a .forward file or similar.
 
-%description -l pl
-Inspiracj± dla Mail::Audit by³ audit_mail i programy deliverlib Toma
-Christiansena.  Pozwala on na logowanie przychodz±cej poczty, badanie
+%description -l pl.UTF-8
+InspiracjÄ… dla Mail::Audit byÅ‚ audit_mail i programy deliverlib Toma
+Christiansena.  Pozwala on na logowanie przychodzÄ…cej poczty, badanie
 jej, akceptowanie do skrzynki pocztowej, filtrowanie, przekierowywanie,
-odrzucanie, odpowiadanie i tak dalej.  Zosta³ zaprojektowany tak, aby
-pozwoliæ Ci na ³atwe tworzenie filtrów, uruchamianych z pliku ~/.forward
+odrzucanie, odpowiadanie i tak dalej.  ZostaÅ‚ zaprojektowany tak, aby
+pozwoliÄ‡ Ci na Å‚atwe tworzenie filtrÃ³w, uruchamianych z pliku ~/.forward
 lub podobnego miejsca.
 
 %prep
