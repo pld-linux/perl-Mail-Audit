@@ -6,7 +6,7 @@
 %define		pdir	Mail
 %define		pnam	Audit
 Summary:	Mail::Audit - alternative for procmail
-Summary(pl.UTF-8):   Mail::Audit - alternatywa dla procmaila
+Summary(pl.UTF-8):	Mail::Audit - alternatywa dla procmaila
 Name:		perl-Mail-Audit
 Version:	2.200_02
 Release:	4
