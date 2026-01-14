@@ -8,7 +8,7 @@ Summary:	Mail::Audit - alternative for procmail
 Summary(pl.UTF-8):	Mail::Audit - alternatywa dla procmaila
 Name:		perl-Mail-Audit
 Version:	2.227
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
